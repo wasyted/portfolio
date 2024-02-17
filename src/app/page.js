@@ -38,10 +38,10 @@ export default function Home() {
             Check out my projects
           </h1>
           <h2 className="dark:text-zinc-200 text-zinc-800 text-lg max-w-lg mt-3 text-center sm-text-start">
-            "I can get things done".
+          `&quot;`I can get things done.`&quot;`
           </h2>
           <p className="dark:text-zinc-300 text-zinc-800 text-md max-w-lg mt-3 text-center sm-text-start">
-            With 1+ years of experience, I've been working on multiple projects, these three I am proud of. Take a look.
+            With 1+ years of experience, I`&apos;`ve been working on multiple projects, these three I am proud of. Take a look.
           </p>
         </div>
         <div className="flex justify-center items-center sm:gap-10 flex-wrap p-4">
@@ -171,14 +171,14 @@ export default function Home() {
               </p>
               <p className="text-black text-md max-w-md">
                 <br></br>
-                Besides programming, my hobbies are playing piano and guitar, I'm a musician. I've traveled +15.000kms on car throughout Argentina and expect to travel even more.
+                Besides programming, my hobbies are playing piano and guitar, I`&apos;`m a musician. I`&apos;`ve traveled +15.000kms on car throughout Argentina and expect to travel even more.
               </p>
             </div>
             <div className="overflow-hidden p-2 flex flex-col items-center justify-center h-auto max-w-96">
               <Image priority width={1080} height={1350} className="rounded-lg" src="/matias.jpg"></Image>
               <p className="text-black text-md max-w-md">
                 <br></br>
-                "The frontend allows me to deploy the creativity in my artistic side; the backend, my meticulous and goal driven qualities."
+                `&qout;`The frontend allows me to deploy the creativity in my artistic side; the backend, my meticulous and goal driven qualities.`&quot;`
               </p>
             </div>
           </div>
@@ -187,7 +187,7 @@ export default function Home() {
       <div id='contact-section' className="font-roboto flex min-h-screen flex-col justify-center items-center gap-10 bg-cover bg-white p-4 pt-0">
         <div className="text-center p-4">
           <h1 className="font-bold text-4xl h-max bg-gradient-to-br text-transparent bg-clip-text from-black to-slate-500">
-            Let's get in touch!
+            Let`&apos;`s get in touch!
           </h1>
           <p className="dark:text-zinc-600 text-zinc-800 text-xl max-w-sm mt-3">
             Contact me so we can talk about what can I bring to your project.
