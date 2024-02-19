@@ -1,25 +1,46 @@
+'use client'
+
+import React, { useState } from "react";
 import Image from "next/image"
 
 export default function Project({ 
-  projectName, 
-  imageAltText, 
-  imageWidth, 
-  imageHeight, 
-  projectImage, 
-  liveVersionLink, 
+  projectName,
+  desktopImageAltText,
+  desktopImageWidth,
+  desktopImageHeight,
+  mobileImageAltText,
+  mobileImageWidth,
+  mobileImageHeight,
+  projectImageMobile,
+  projectImageDesktop,
+  liveVersionLink,
   aboutProjectLink,
   shortDescription,
   fullWidth
 }){
+  const [selectView , setSelectView] = useState('mobile');
   return(
-    <div className={`flex-1 bg-white rounded-lg p-4 mt-5 ${fullWidth ? 'min-w-full' : ''}`}>
-      <div>
+    <div className={`flex-1 bg-gradient-to-br from-white to-slate-200 rounded-lg p-4 mt-5 ${fullWidth ? 'min-w-full' : 'max-w-md'}`}>
+      <div className="flex items-start justify-between">
         <h1 className="font-bold text-xl h-max text-black">
           {projectName}
         </h1>
+        <div className="flex items-center justify-center gap-2 text-black bg-black px-3 py-1.5 rounded-full text-white text-xs">
+          Select view
+          <button onClick={() => {setSelectView('desktop')}} className="flex items-center invert">
+            <Image width={18} height={18} src={'/icons/monitor-icon.png'}></Image>
+          </button>
+          /
+          <button className="flex items-center invert">
+            <Image onClick={() => {setSelectView('mobile')}} width={10} height={10} src={'/icons/mobile-phone-icon.png'}></Image>
+          </button>
+        </div>
       </div>
-      <div className="overflow-hidden p-2 flex items-center justify-center min-h-384px">
-        <Image priority alt={imageAltText} width={imageWidth} height={imageHeight} className="max-h-96 w-auto" src={projectImage}></Image>
+      <div className={`overflow-hidden p-2 flex items-center justify-center h-96 mt-3 ${selectView === 'mobile' ? 'block' : 'hidden'}`}>
+        <Image priority alt={mobileImageAltText} width={mobileImageWidth} height={mobileImageHeight} className="max-h-96 w-auto" src={projectImageMobile}></Image>
+      </div>
+      <div className={`overflow-hidden p-2 flex items-center justify-center h-96 mt-3 ${selectView === 'desktop' ? 'block' : 'hidden'}`}>
+        <Image priority alt={desktopImageAltText} width={desktopImageWidth} height={desktopImageHeight} className="max-h-96 w-auto" src={projectImageDesktop}></Image>
       </div>
       <div>
         <p className="flex items-center justify-center text-black max-w-sm m-auto mt-3">
