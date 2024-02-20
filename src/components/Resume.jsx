@@ -31,7 +31,7 @@ const Resume = () => {
       <section className='mb-3'>
         <h2 className="text-xl font-semibold mt-3 text-end text-black">Education</h2>
         <div className='text-sm'>
-          <p className="font-semibold text-gray-800">Bachelor's Degree in Computer Science</p>
+          <p className="font-semibold text-gray-800">Ingeniería en informática</p>
           <p className="text-gray-600">Expected Graduation: 2027 | Universidad Arturo Jauretche</p>
         </div>
         <div className='text-sm mt-3'>
