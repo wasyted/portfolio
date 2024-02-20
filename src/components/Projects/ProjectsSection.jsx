@@ -11,7 +11,7 @@ export default function Projects(){
           &quot;I can get things done.&quot;
         </h2>
         <p className="dark:text-zinc-300 text-zinc-300 text-md max-w-lg mt-3 text-justify">
-          With over a year of experience in web development, I've built and contributed to numerous projects. 
+          With over a year of experience in web development, I&apos;ve built and contributed to numerous projects. 
           Below are three highlights that showcase my skills and dedication. Feel free to browse through them.
         </p>
       </div>
