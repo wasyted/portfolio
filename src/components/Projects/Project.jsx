@@ -20,7 +20,7 @@ export default function Project({
 }){
   const [selectView , setSelectView] = useState('mobile');
   return(
-    <div className={`flex-1 bg-gradient-to-br from-white to-slate-200 rounded-lg p-4 mt-5 ${fullWidth ? 'min-w-full' : 'max-w-md'}`}>
+    <div className={`flex-1 bg-gradient-to-br from-white to-slate-200/75 rounded-lg p-4 mt-5 ${fullWidth ? 'min-w-full' : 'max-w-md'}`}>
       <div className="flex items-start justify-between">
         <h1 className="font-bold text-xl h-max text-black">
           {projectName}

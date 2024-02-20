@@ -73,7 +73,7 @@ export default function Home() {
                   Matías Wasyluk, from Buenos Aires, Argentinian like Messi, currently 24 years of age.
                   <br></br>
                   <br></br>
-                  Been studying Ingeniería Informatica since 2021 -expecting to graduate with a engineering degree at 2027- and developing web-dev skills since december 2022.
+                  Been studying Ingeniería Informatica since 2021 -expecting to graduate with a engineering degree at 2027- and developing web-dev skills since december 2022 via TheOdinProject open source course.
                 </p>
                 <p className="text-black text-md max-w-md">
                   <br></br>

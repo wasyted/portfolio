@@ -14,9 +14,9 @@ export default function Hero(){
         <a href="#contact-section" className="text-center rounded-lg font-bold p-1.5 w-32 bg-gradient-to-br from-zinc-50 to-zinc-400 text-white dark:from-zinc-50 dark:to-zinc-400 dark:text-black transition ease-in-out delay-500">
           Contact
         </a>
-        <button className="font-regular p-1.5 w-32">
+        <a href="/resume" className="font-regular p-1.5 w-32">
           Resume ↗
-        </button>
+        </a>
       </div>
       <div className="flex items-center justify-center absolute top-0 right-0 left-0 bottom-0 overflow-hidden">
         <Image className="sm:hidden block h-full" width={768} height={768} src={'/background/hero-background-dark-768-squared.png'} alt={'hero background image'}></Image>

@@ -1,7 +1,7 @@
 'use client'
 export default function Contact(){
   return(
-    <div id='contact-section' className="font-roboto flex min-h-screen flex-col justify-center items-center gap-10 p-4 pt-0 bg-white pt-10">
+    <div id='contact-section' className="shadow-xl flex min-h-screen flex-col justify-center items-center gap-10 p-4 pt-0 bg-white pt-10 z-10">
       <div className="text-center p-4">
         <h1 className="font-bold text-4xl h-max bg-gradient-to-br text-transparent bg-clip-text from-black to-slate-500">
           Let&apos;s get in touch!

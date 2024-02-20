@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <main>
-      <Header></Header>
+      <Header navEntryList={[{href: '/projects', name: 'projects'},{href: '/projects/noteblndr', name: 'notebnldr'}]}></Header>
       <div className="min-h-screen flex flex-col justify-center items-center gap-10 bg-white text-black p-4 pt-10">
         <div className="text-center p-4 rounded-lg">
           <div className="flex items-center justify-center flex-wrap mt-5 gap-4"> 
