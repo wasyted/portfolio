@@ -1,6 +1,6 @@
 export default function Footer(){
   return (
-    <div className="bg-black w-full py-4 flex justify-center items-center text-xs flex-col gap-4">
+    <div className="bg-black text-white w-full py-4 flex justify-center items-center text-xs flex-col gap-4">
       <div>
         <p>
           Props to the creators of the resources i&apos;ve used in this site:

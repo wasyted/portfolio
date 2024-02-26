@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "notelbndr",
-  description: "noteblndr project about section",
+  title: "HurynWeb",
+  description: "HurynWeb project about section",
 };
 
 export default function RootLayout({ children }) {

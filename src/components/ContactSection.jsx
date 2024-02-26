@@ -10,17 +10,17 @@ export default function Contact(){
           Contact me so we can talk about what can I bring to your project.
         </p>
       </div>
-      <form className="flex flex-col justify-center items-start gap-4  w-full max-w-lg p-2">
+      <form className="flex flex-col justify-center items-start gap-4 w-full max-w-lg p-2">
         <div className="flex justify-start items-center gap-4 flex-wrap">
-          <label htmlFor="name" className="flex flex-col items-start justify-center gap-2"><p>Name<span className="text-pink-500"> *</span></p>
-            <input type="text" id="name" name="name" required minLength={3} placeholder="Your full name" className="placeholder:text-sm border p-1.5 px-2 dark:bg-slate-500/75 dark:border-slate-500/75 placeholder:text-zinc-300 rounded-lg"></input>
+          <label htmlFor="name" className="flex flex-col items-start justify-center gap-2 w-full sm:w-auto"><p>Name<span className="text-pink-500"> *</span></p>
+            <input type="text" id="name" name="name" required minLength={3} placeholder="Your full name" className="placeholder:text-sm border p-1.5 px-2 dark:bg-slate-500/75 dark:border-slate-500/75 placeholder:text-zinc-300 rounded-lg w-full"></input>
           </label>
-          <label htmlFor="company" className="flex flex-col items-start justify-center gap-2" >Company
-            <input type="text" id="company" name="company" minLength={3} placeholder="Company / Organization" className="placeholder:text-sm border p-1.5 px-2 rounded-lg dark:bg-slate-500/75 dark:border-slate-500/75 placeholder:text-zinc-300"></input>
+          <label htmlFor="company" className="flex flex-col items-start justify-center gap-2 w-full sm:w-auto" >Company
+            <input type="text" id="company" name="company" minLength={3} placeholder="Company / Organization" className="placeholder:text-sm border p-1.5 px-2 rounded-lg dark:bg-slate-500/75 dark:border-slate-500/75 placeholder:text-zinc-300 w-full"></input>
           </label>
         </div>
-        <label htmlFor="email" className="flex flex-col items-start justify-center gap-2" ><p>Email<span className="text-pink-500"> *</span></p>
-            <input type="text" id="email" name="email" minLength={3} placeholder="mail@example.com" className="placeholder:text-sm border p-1.5 px-2 rounded-lg dark:bg-slate-500/75 dark:border-slate-500/75 placeholder:text-zinc-300"></input>
+        <label htmlFor="email" className="flex flex-col items-start justify-center gap-2 w-full sm:max-w-xs" ><p>Email<span className="text-pink-500"> *</span></p>
+            <input type="text" id="email" name="email" minLength={3} placeholder="mail@example.com" className="placeholder:text-sm border p-1.5 px-2 rounded-lg dark:bg-slate-500/75 dark:border-slate-500/75 placeholder:text-zinc-300 w-full"></input>
           </label>
         <label htmlFor="message" className="flex flex-col items-start justify-center gap-2 w-full "><p>Message<span className="text-pink-500"> *</span></p>
           <textarea type="text" id="message" maxLength={1000} minLength={3} name="message" placeholder="Type in your message" rows={8} className="min-w-full placeholder:text-sm resize-none border p-1.5 px-2 rounded-lg dark:bg-slate-500/75 dark:border-slate-500/75 placeholder:text-zinc-300"></textarea>

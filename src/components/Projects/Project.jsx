@@ -20,18 +20,18 @@ export default function Project({
 }){
   const [selectView , setSelectView] = useState('mobile');
   return(
-    <div className={`flex-1 bg-gradient-to-br from-white to-slate-200/75 rounded-xl p-4 mt-5 ${fullWidth ? 'min-w-full' : 'max-w-md'}`}>
+    <div className={`flex-1 bg-gradient-to-br from-white to-slate-200/75 dark:from-black/25 dark:to-black/50 dark:text-white rounded-xl p-4 mt-5 ${fullWidth ? 'min-w-full' : 'max-w-md'}`}>
       <div className="flex items-start justify-between">
-        <h1 className="font-bold text-xl h-max text-black">
+        <h1 className="font-bold text-xl h-max">
           {projectName}
         </h1>
-        <div className="flex items-center justify-center gap-2 text-black bg-black px-3 py-1.5 rounded-full text-white text-xs">
+        <div className="flex items-center justify-center gap-2 bg-black dark:bg-white px-3 py-1.5 rounded-full text-white dark:text-black text-xs">
           Select view
-          <button onClick={() => {setSelectView('desktop')}} className="flex items-center invert">
+          <button onClick={() => {setSelectView('desktop')}} className="flex items-center invert dark:invert-0">
             <Image width={18} height={18} src={'/icons/monitor-icon.png'}></Image>
           </button>
           /
-          <button className="flex items-center invert">
+          <button className="flex items-center invert dark:invert-0">
             <Image onClick={() => {setSelectView('mobile')}} width={10} height={10} src={'/icons/mobile-phone-icon.png'}></Image>
           </button>
         </div>
@@ -43,15 +43,15 @@ export default function Project({
         <Image priority alt={desktopImageAltText} width={desktopImageWidth} height={desktopImageHeight} className="max-h-96 w-auto" src={projectImageDesktop}></Image>
       </a>
       <div>
-        <p className="flex items-center justify-center text-black max-w-sm m-auto mt-3">
+        <p className="flex items-center justify-center max-w-sm m-auto mt-3">
           {shortDescription}
         </p>
       </div>
       <div className="flex justify-center items-center gap-4 p-2 pb-0 mt-3">
-        <a href={liveVersionLink} target="_blank"  className="text-sm text-center rounded-lg font-bold p-1.5 w-32 bg-black text-white transition ease-in-out delay-500">
+        <a href={liveVersionLink} target="_blank"  className="text-sm text-center rounded-lg font-bold p-1.5 w-32 bg-black text-white dark:bg-white dark:text-black transition ease-in-out delay-500">
           Live version ↗
         </a>
-        <a href={aboutProjectLink} className="text-center text-sm text-black p-1.5 w-32">
+        <a href={aboutProjectLink} className="text-center text-sm p-1.5 w-32">
           About project →
         </a>
       </div>

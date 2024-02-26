@@ -3,7 +3,7 @@ import Project from "./Project"
 
 export default function Projects(){
   return(
-    <div id='projects-section' className="flex min-h-screen flex-col justify-center items-center gap-10 bg-gradient-to-br from-black to-slate-600 pt-5 pb-10">
+    <div id='projects-section' className="flex min-h-screen flex-col justify-center items-center gap-10 bg-gradient-to-br from-zinc-950 to-slate-600 pt-5 pb-10">
       <div className="flex items-center justify-center flex-col p-4">
         <h1 className="text-center font-bold text-4xl h-max bg-gradient-to-br text-transparent bg-clip-text from-zinc-50 to-zinc-400">
           Check out my projects 
@@ -51,6 +51,7 @@ export default function Projects(){
         </Project>
         <Project
           fullWidth={true}
+          projectName={'003 noteblndr'} 
           mobileImageAltText={'noteblndr website gif'}
           desktopImageAltText={'notebnldr website desktop image'}
           mobileImageWidth={446} 
@@ -65,54 +66,54 @@ export default function Projects(){
         >
         </Project>
       </div>
-      <div className="text-center p-4 bg-gradient-to-br from-black to-slate-500 dark:from-white dark:to-slate-200/75 rounded-lg">
-            <h1 className="font-bold text-4xl h-max bg-gradient-to-br text-transparent bg-clip-text from-black to-slate-500 dark:from-black dark:to-slate-600">
+      <div className="text-center p-4 bg-gradient-to-br from-white to-slate-200/75 dark:from-black/25 dark:to-black/50 rounded-lg">
+            <h1 className="font-bold text-4xl h-max bg-gradient-to-br text-transparent bg-clip-text from-black to-slate-600 dark:from-white dark:to-zinc-300">
               Tools and technologies
             </h1>
-            <div className="flex items-center justify-center flex-wrap mt-5"> 
-              <div className="overflow-hidden p-2 flex items-center justify-center h-18 w-18">
+            <div className="flex items-center justify-center flex-wrap mt-5 gap-2 max-w-lg"> 
+              <div className="overflow-hidden p-2 flex items-center justify-center h-18 w-18 bg-white/25 rounded-lg hover:scale-110 backdrop-blur-lg">
                 <Image priority alt="css3" width={40} height={40}  src="/logos/css-3.png"></Image>
               </div>
-              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14">
+              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14 bg-white/25 rounded-lg hover:scale-110">
                 <Image priority alt="tailwindcss" width={40} height={40}  src="/logos/Tailwind_CSS_Logo.svg.png"></Image>
               </div>
-              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14">
+              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14 bg-white/25 rounded-lg hover:scale-110">
                 <Image priority alt="html" width={40} height={40}  src="/logos/html-5.png"></Image>
               </div>
-              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14">
+              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14 bg-white/25 rounded-lg hover:scale-110">
                 <Image priority alt="js" width={40} height={40}  src="/logos/js.png"></Image>
               </div>
-              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14">
+              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14 bg-white/25 hover:scale-110">
                 <Image priority alt="typescript" width={40} height={40}  src="/logos/Typescript_logo_2020.svg.png"></Image>
               </div>
-              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14">
+              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14 bg-white/25 rounded-lg hover:scale-110">
                 <Image priority alt="webpack" width={40} height={40}  src="/logos/webpack.png"></Image>
               </div>
-              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14">
+              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14 bg-white/25 rounded-lg hover:scale-110">
                 <Image priority alt="react" width={40} height={40}  src="/logos/React-icon.svg.png"></Image>
               </div>
-              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14">
+              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14 bg-white/25 rounded-lg hover:scale-110">
                 <Image priority alt="nextjs" width={40} height={40}  src="/logos/next-js-logo-freelogovectors.net_.png"></Image>
               </div>
-              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14 bg-white rounded-lg">
-                <Image priority alt="expressjs" width={40} height={40} src="/logos/Expressjs.png"></Image>
+              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14 bg-white/25 rounded-lg hover:scale-110 ">
+                <Image priority alt="expressjs" className="dark:invert" width={40} height={40} src="/logos/Expressjs.png"></Image>
               </div>
-              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14">
+              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14 bg-white/25 rounded-lg hover:scale-110">
                 <Image priority alt="ejs" width={40} height={40}  src="/logos/ejs.svg"></Image>
               </div>
-              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14">
+              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14 bg-white/25 rounded-lg hover:scale-110">
                 <Image priority alt="mongodb" width={40} height={40}  src="/logos/MongoDB_Logo.svg.png"></Image>
               </div>
-              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14">
+              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14 bg-white/25 rounded-lg hover:scale-110">
                 <Image priority alt="github" width={40} height={40}  src="/logos/github-mark.png"></Image>
               </div>
-              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14">
+              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14 bg-white/25 rounded-lg hover:scale-110">
                 <Image priority alt="railway" width={40} height={40}  src="/logos/logo-dark.png"></Image>
               </div>
-              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14">
+              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14 bg-white/25 rounded-lg hover:scale-110">
                 <Image priority alt="vercel" width={40} height={40}  src="/logos/vercel.svg"></Image>
               </div>
-              <div className="overflow-hidden p-2 flex items-center justify-center h-14 w-14">
+              <div className="overflow-hidden p-4 flex items-center justify-center h-14 w-14 bg-white/25 rounded-lg hover:scale-110">
                 <Image priority alt="firebase" width={40} height={40}  src="/logos/logo-logomark.png"></Image>
               </div>
             </div>

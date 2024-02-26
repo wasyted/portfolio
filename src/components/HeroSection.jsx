@@ -24,7 +24,7 @@ export default function Hero(){
         <Image className="hidden md:block lg:hidden h-full invert dark:invert-0" width={1280} height={720} src={'/background/hero-background-dark-720.png'} alt={'hero background image'}></Image>
         <Image className="hidden lg:block w-full invert dark:invert-0" width={1920} height={1080} src={'/background/hero-background-dark.png'} alt={'hero background image'}></Image>
       </div>
-      <div className="opacity-5 m-auto w-md h-md flex items-center justify-center absolute top-0 bottom-0 left-0 overflow-hidden">
+      <div className="opacity-5 m-auto w-md h-md flex items-center justify-center absolute top-0 bottom-0 left-0 overflow-hidden invert dark:invert-0">
         <Image className="" width={768} height={768} src={'/background/globe-dark.png'} alt={'globe wireframe image'}></Image>
       </div>
     </div>
