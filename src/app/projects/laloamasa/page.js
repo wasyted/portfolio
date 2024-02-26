@@ -37,10 +37,10 @@ export default function Home() {
                 <li>fetchAPI and WhatsApp API for seamless communication.</li>
               </ul>
               <div className="flex justify-center items-center gap-4 p-2 pb-0 mt-3">
-                <a href="https://noteblndr.up.railway.app" target="_blank"  className="text-sm text-center rounded-lg font-bold p-1.5 w-32 bg-black text-white dark:bg-white dark:text-black transition ease-in-out delay-500">
+                <a href="https://laloamasa.web.app" target="_blank"  className="text-sm text-center rounded-lg font-bold p-1.5 w-32 bg-black text-white dark:bg-white dark:text-black transition ease-in-out delay-500">
                   Live version ↗
                 </a>
-                <a href="https://www.github.com/wasyted/noteblndr" className="text-sm text-black p-1.5 w-32">
+                <a href="https://www.github.com/wasyted/laloamasa" className="text-sm p-1.5 w-32">
                   Code ↗
                 </a>
               </div>
