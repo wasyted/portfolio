@@ -20,7 +20,7 @@ export default function Project({
 }){
   const [selectView , setSelectView] = useState('mobile');
   return(
-    <div className={`flex-1 bg-gradient-to-br from-white to-slate-200/75 rounded-lg p-4 mt-5 ${fullWidth ? 'min-w-full' : 'max-w-md'}`}>
+    <div className={`flex-1 bg-gradient-to-br from-white to-slate-200/75 rounded-xl p-4 mt-5 ${fullWidth ? 'min-w-full' : 'max-w-md'}`}>
       <div className="flex items-start justify-between">
         <h1 className="font-bold text-xl h-max text-black">
           {projectName}
@@ -36,12 +36,12 @@ export default function Project({
           </button>
         </div>
       </div>
-      <div className={`overflow-hidden p-2 flex items-center justify-center h-96 mt-3 ${selectView === 'mobile' ? 'block' : 'hidden'}`}>
+      <a href={aboutProjectLink} className={`overflow-hidden p-2 flex items-center justify-center h-96 mt-3 ${selectView === 'mobile' ? 'block' : 'hidden'}`}>
         <Image priority alt={mobileImageAltText} width={mobileImageWidth} height={mobileImageHeight} className="max-h-96 w-auto" src={projectImageMobile}></Image>
-      </div>
-      <div className={`overflow-hidden p-2 flex items-center justify-center h-96 mt-3 ${selectView === 'desktop' ? 'block' : 'hidden'}`}>
+      </a>
+      <a href={aboutProjectLink} className={`overflow-hidden p-2 flex items-center justify-center h-96 mt-3 ${selectView === 'desktop' ? 'block' : 'hidden'}`}>
         <Image priority alt={desktopImageAltText} width={desktopImageWidth} height={desktopImageHeight} className="max-h-96 w-auto" src={projectImageDesktop}></Image>
-      </div>
+      </a>
       <div>
         <p className="flex items-center justify-center text-black max-w-sm m-auto mt-3">
           {shortDescription}
