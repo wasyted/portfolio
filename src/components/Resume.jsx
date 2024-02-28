@@ -29,7 +29,7 @@ const Resume = () => {
       </section>
       <hr />
       <section className='mb-3'>
-        <h2 className="text-xl font-semibold mt-3 text-end text-black">Idiomas</h2>
+        <h2 className="text-xl font-semibold mt-3 text-end text-black">Languages</h2>
         <div className='text-sm'>
           <p className="font-semibold text-gray-800">English</p>
           <p className="text-gray-600">Advanced - Fluent</p>
