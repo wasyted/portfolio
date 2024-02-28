@@ -41,6 +41,18 @@ const ResumeSpanish = () => {
       </section>
       <hr />
       <section className='mb-3'>
+        <h2 className="text-xl font-semibold mt-3 text-end text-black">Idiomas</h2>
+        <div className='text-sm'>
+          <p className="font-semibold text-gray-800">Inglés</p>
+          <p className="text-gray-600">Avanzado - Fluído</p>
+        </div>
+        <div className='text-sm'>
+          <p className="font-semibold text-gray-800">Español</p>
+          <p className="text-gray-600">Nativo</p>
+        </div>
+      </section>
+      <hr />
+      <section className='mb-3'>
         <h2 className="text-xl font-semibold mt-3 text-end text-black">Experiencia</h2>
         <div className='text-sm'>
           <p className="font-semibold text-gray-800">Desarrollador Web Freelance</p>
