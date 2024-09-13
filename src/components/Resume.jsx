@@ -76,8 +76,8 @@ const Resume = () => {
           <p className="text-gray-600">Live demo: <a href="https://wasyted.github.io/hurynWeb">https://wasyted.github.io/hurynWeb</a></p>
         </div>
         <div className='mt-3 text-sm'>
-          <p className="font-semibold text-gray-800">David Basile's portfolio <span className='text-gray-500'>- Artist portfolio</span></p>
-          <p className="text-gray-600">A filmmaker portfolio showcasing it's projects, built with NextJS, and Tailwind CSS, hosted with Vercel.</p>
+          <p className="font-semibold text-gray-800">David Basile&apos;s portfolio <span className='text-gray-500'>- Artist portfolio</span></p>
+          <p className="text-gray-600">A filmmaker portfolio showcasing it&apos;s projects, built with NextJS, and Tailwind CSS, hosted with Vercel.</p>
           <p className="text-gray-600">Repo: <a href="https://github.com/wasyted/davidbasile-portfolio">https://github.com/wasyted/davidbasile-portfolio</a></p>
           <p className="text-gray-600">Live demo: <a href="https://davidbasile-portfolio.vercel.app">https://davidbasile-portfolio.vercel.app</a></p>
         </div>
