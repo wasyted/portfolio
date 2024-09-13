@@ -76,10 +76,10 @@ const ResumeSpanish = () => {
           <p className="text-gray-600">Demo en vivo: <a href="https://wasyted.github.io/hurynWeb">https://wasyted.github.io/hurynWeb</a></p>
         </div>
         <div className='mt-3 text-sm'>
-          <p className="font-semibold text-gray-800">noteblndr <span className='text-gray-500'>- Red social</span></p>
-          <p className="text-gray-600">Construí un prototipo de red social full-stack con interacciones de usuario y publicaciones utilizando ExpressJS, MongoDB, EJS y Tailwind CSS, implementado en Railway.</p>
-          <p className="text-gray-600">Repositorio en GitHub: <a href="https://github.com/wasyted/auth-test-app">https://github.com/wasyted/auth-test-app</a></p>
-          <p className="text-gray-600">Demo en vivo: <a href="https://noteblndr.up.railway.app">https://noteblndr.up.railway.app</a></p>
+          <p className="font-semibold text-gray-800">David Basile's portfolio <span className='text-gray-500'>- Portfolio de artista</span></p>
+          <p className="text-gray-600">Un portafolio para un filmmaker, muestra y promociona sus proyectos, programado en NextJS, Tailwind CSS, e implementado en Vercel.</p>
+          <p className="text-gray-600">Repositorio en Github: <a href="https://github.com/wasyted/davidbasile-portfolio">https://github.com/wasyted/davidbasile-portfolio</a></p>
+          <p className="text-gray-600">Demo en vivo: <a href="https://davidbasile-portfolio.vercel.app">https://davidbasile-portfolio.vercel.app</a></p>
         </div>
       </section>
     </div>

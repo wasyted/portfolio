@@ -68,7 +68,7 @@ const Resume = () => {
       </section>
       <hr />
       <section className='mb-3'>
-        <h2 className="text-xl font-semibold text-black text-end mt-3">Proyectos</h2>
+        <h2 className="text-xl font-semibold text-black text-end mt-3">Projects</h2>
         <div className='mt-3 text-sm'>
           <p className="font-semibold text-gray-800">HurynWeb <span className='text-gray-500'>- Landing Page</span></p>
           <p className="text-gray-600">Designed and developed a landing-page for <span><a href="http://instagram.com/somos_huryn">@somos_huryn</a></span> using exclusively vanilla HTML, CSS and JavaScript, implemented and hosted with GitHub Pages.</p>
@@ -76,10 +76,10 @@ const Resume = () => {
           <p className="text-gray-600">Live demo: <a href="https://wasyted.github.io/hurynWeb">https://wasyted.github.io/hurynWeb</a></p>
         </div>
         <div className='mt-3 text-sm'>
-          <p className="font-semibold text-gray-800">noteblndr <span className='text-gray-500'>- Social network</span></p>
-          <p className="text-gray-600">Full-stack social network prototype with user interaction through posts using ExpressJS, MongoDB, EJS and Tailwind CSS, implemented at Railway hosting.</p>
-          <p className="text-gray-600">Repo: <a href="https://github.com/wasyted/auth-test-app">https://github.com/wasyted/auth-test-app</a></p>
-          <p className="text-gray-600">Live demo: <a href="https://noteblndr.up.railway.app">https://noteblndr.up.railway.app</a></p>
+          <p className="font-semibold text-gray-800">David Basile's portfolio <span className='text-gray-500'>- Artist portfolio</span></p>
+          <p className="text-gray-600">A filmmaker portfolio showcasing it's projects, built with NextJS, and Tailwind CSS, hosted with Vercel.</p>
+          <p className="text-gray-600">Repo: <a href="https://github.com/wasyted/davidbasile-portfolio">https://github.com/wasyted/davidbasile-portfolio</a></p>
+          <p className="text-gray-600">Live demo: <a href="https://davidbasile-portfolio.vercel.app">https://davidbasile-portfolio.vercel.app</a></p>
         </div>
       </section>
     </div>
