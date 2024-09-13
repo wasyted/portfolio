@@ -16,12 +16,12 @@ const Resume = () => {
       </header>
       <hr />
       <section className='mb-3'>
-        <h2 className="text-xl font-semibold mt-3 text-end text-black mb-3">Perfil profesional</h2>
+        <h2 className="text-xl font-semibold mt-3 text-end text-black mb-3">Professional Profile</h2>
           <p className="text-gray-600">Informatics engineering student with a solid base in web developement and experience on self-managed projects. General understanding of programming and informatics concepts, with focus on good practices and interface design.<br /> Looking to expand knowledge in the web dev. area, applying effective communication, teamwork and problem-solving capabilites.</p>
       </section>
       <hr />
       <section className='mb-3'>
-        <h2 className="text-xl font-semibold mt-3 text-end text-black mb-3">Habilidades</h2>
+        <h2 className="text-xl font-semibold mt-3 text-end text-black mb-3">Skills</h2>
         <ul className="list-disc list-inside text-sm">
           <li className="text-gray-600 mb-1">Soft skills: self-starter, proactive, team worker, communicative y receptive to learning and sharing good working practices.</li>
           <li className="text-gray-600 mb-1">Basis at QA: Software testing and debugging concepts, quality assurance methods.</li>
