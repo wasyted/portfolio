@@ -23,7 +23,7 @@ const Resume = () => {
       <section className='mb-3'>
         <h2 className="text-xl font-semibold mt-3 text-end text-black mb-3">Skills</h2>
         <ul className="list-disc list-inside text-sm">
-          <li className="text-gray-600 mb-1">Soft skills: self-starter, proactive, team worker, communicative y receptive to learning and sharing good working practices.</li>
+          <li className="text-gray-600 mb-1">Soft skills: self-starter, proactive, team worker, communicative and receptive to learning and sharing good working practices.</li>
           <li className="text-gray-600 mb-1">Basis at QA: Software testing and debugging concepts, quality assurance methods.</li>
           <li className="text-gray-600 mb-1">Proficient in HTML5, CSS3 and JavaScript (ES6+)</li>
           <li className="text-gray-600 mb-1">Frontend experience with React.js, Next.js and Tailwind CSS</li>
@@ -77,7 +77,7 @@ const Resume = () => {
         </div>
         <div className='mt-3 text-sm'>
           <p className="font-semibold text-gray-800">noteblndr <span className='text-gray-500'>- Social network</span></p>
-          <p className="text-gray-600">Full-stack social network prototype with user interaction through posts using ExpressJS, MongoDB, EJS y Tailwind CSS, implemented at Railway hosting.</p>
+          <p className="text-gray-600">Full-stack social network prototype with user interaction through posts using ExpressJS, MongoDB, EJS and Tailwind CSS, implemented at Railway hosting.</p>
           <p className="text-gray-600">Repo: <a href="https://github.com/wasyted/auth-test-app">https://github.com/wasyted/auth-test-app</a></p>
           <p className="text-gray-600">Live demo: <a href="https://noteblndr.up.railway.app">https://noteblndr.up.railway.app</a></p>
         </div>
