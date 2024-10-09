@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Header from "@/components/Header";
-import Hero from "@/components/HeroSection";
+import Hero from "@/components/Hero";
 import Projects from "@/components/Projects/ProjectsSection";
 import Contact from "@/components/ContactSection";
 import Footer from "@/components/Footer";
@@ -14,15 +14,15 @@ export default function Home() {
       <Hero></Hero>
       <Projects></Projects>
       <div className="">
-        <div id='about-section' className="font-roboto flex flex-col justify-center items-center gap-10 p-4 dark:bg-gradient-to-b dark:from-black dark:to-zinc-950 dark:text-white">
+        <div id='about-section' className="font-roboto flex flex-col justify-center items-center gap-10 p-4">
           <div className="text-center p-4">
-            <h1 className="font-bold text-4xl h-max bg-gradient-to-br text-transparent bg-clip-text from-black to-slate-500 dark:from-zinc-50 dark:to-zinc-400">
+            <h1 className="text-start font-bold text-4xl h-max bg-gradient-to-br text-transparent bg-clip-text from-black to-slate-800 ">
               About me
             </h1>
-            <div className="flex items-center justify-center flex-wrap mt-5 gap-4"> 
+            <div className="flex items-start justify-center flex-wrap gap-4 mt-6"> 
               <div className="text-justify">
                 <p className="text-md max-w-md">
-                  Matías Wasyluk, from Buenos Aires, Argentinian like Messi, currently 24 years of age.
+                  Matías Wasyluk is from Buenos Aires, Argentinian like Messi and currently 24 years of age.
                   <br></br>
                   <br></br>
                   Been studying Ingeniería Informatica since 2021 -expecting to graduate with a engineering degree at 2027- and developing web-dev skills since december 2022 via TheOdinProject open source course.
