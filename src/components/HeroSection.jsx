@@ -1,4 +1,5 @@
 import Image from "next/image";
+const source = Source_Code_Pro({ subsets: ["latin"] });
 
 export default function Hero(){
   return(

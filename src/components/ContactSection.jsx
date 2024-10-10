@@ -1,36 +1,54 @@
 'use client'
-export default function Contact(){
-  return(
-    <div id='contact-section' className="shadow-xl flex min-h-screen flex-col justify-center items-center gap-10 p-4 pt-0 text-white bg-gradient-to-t from-blue-800 to-blue-600 pt-10 z-10">
-      <div className="text-center p-4">
-        <h1 className="font-bold text-4xl h-max bg-gradient-to-br text-transparent bg-clip-text text-white">
-          Let&apos;s get in touch!
-        </h1>
-        <p className="text-zinc-50 text-xl max-w-sm mt-3">
-          Contact me so we can talk about what can I bring to your project.
-        </p>
+
+import { Source_Code_Pro } from "next/font/google";
+import Image from "next/image";
+import { motion } from "framer-motion"
+const source = Source_Code_Pro({ subsets: ["latin"] });
+export default function Hero() {
+  return (
+    <motion.div
+      initial={{background: "#0d0d0d"}}
+      whileInView={{background: "#f3f9f4"}}
+      transition={{ delay: 0.3, ease: "easeIn", duration: 1 }}
+      id="contact-section"
+      className={`sm:px-16 relative flex justify-between items-center p-4 pt-10 pb-10 gap-10 min-h-screen bg-[#f3f9f4] text-[#0d0d0d] ${source}`}>
+      <div className="opacity-25 m-auto w-sm h-sm flex items-center justify-center absolute top-0 bottom-0 right-0 overflow-hidden invert ">
+        <Image className="" width={768} height={768} src={'/background/globe-dark.png'} alt={'globe wireframe image'}></Image>
       </div>
-      <form className="flex flex-col justify-center items-start gap-4 w-full max-w-lg p-2">
-        <div className="flex justify-start items-center gap-4 flex-wrap">
-          <label htmlFor="name" className="flex flex-col items-start justify-center gap-2 w-full sm:w-auto"><p>Name<span className="text-pink-500"> *</span></p>
-            <input type="text" id="name" name="name" required minLength={3} placeholder="Your full name" className="placeholder:text-sm border p-1.5 px-2 placeholder:text-zinc-300 rounded-lg w-full"></input>
-          </label>
-          <label htmlFor="company" className="flex flex-col items-start justify-center gap-2 w-full sm:w-auto" >Company
-            <input type="text" id="company" name="company" minLength={3} placeholder="Company / Organization" className="placeholder:text-sm border p-1.5 px-2 rounded-lg   placeholder:text-zinc-300 w-full"></input>
-          </label>
+      <motion.div
+        initial={{ opacity: 0.2 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ delay: 0.3, ease: "easeIn", duration: .5 }}
+        className="z-10">
+        <p className="font-extrabold text-6xl max-w-md text-start tracking-tighter">
+          LET&apos;S <span className="italic font-semibold">BUILD </span>
+          <span className="italic font-normal">YOUR </span>PROJECT<br />
+          <span className="underline">TOGHETER</span>
+        </p>
+          <button className="font-semibold px-6 py-2 mt-10 rounded-md text-[#f3f9f4] bg-[#0d0d0d]">Send me an email 📨</button>
+      </motion.div>
+      <div className="z-10 self-end text-sm max-w-md text-end]">
+        <motion.div
+          initial={{ opacity: 0.2 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.6, ease: "easeIn", duration: .5 }}>
+          <p className="z-10 self-end text-sm text-end">
+            I can contribute in your project with my goal-oriented and creative driven attention to detail. Let&apos;s build your idea into reality. <br /><br /> You set the goals and i&apos;ll do the coding.
+          </p>
+        </motion.div>
+        <div className="flex mt-3 justify-end gap-x-4 items-center">
+          <p className="flex items-center gap-2">
+            <span className="text-green-500 text-xl">●</span> Available for work
+          </p>
         </div>
-        <label htmlFor="email" className="flex flex-col items-start justify-center gap-2 w-full sm:max-w-xs" ><p>Email<span className="text-pink-500"> *</span></p>
-            <input type="text" id="email" name="email" minLength={3} placeholder="mail@example.com" className="placeholder:text-sm border p-1.5 px-2 rounded-lg placeholder:text-zinc-300 w-full"></input>
-          </label>
-        <label htmlFor="message" className="flex flex-col items-start justify-center gap-2 w-full "><p>Message<span className="text-pink-500"> *</span></p>
-          <textarea type="text" id="message" maxLength={1000} minLength={3} name="message" placeholder="Type in your message" rows={8} className="min-w-full placeholder:text-sm resize-none border p-1.5 px-2 rounded-lg  placeholder:text-zinc-300"></textarea>
-          <p className="text-xs text-end w-full">Max 1000 characters.</p>
-        </label>
-        <button type='submit' onClick={(event) => {event.preventDefault()}} className="rounded-lg font-bold p-1.5 w-32 bg-gradient-to-br from-black to-slate-600 text-white transition ease-in-out delay-500">
-          Submit
-        </button>
-        <p className="text-sm"><span className="text-pink-500"> *</span> marks required fields.</p>
-      </form>
-    </div>
+      </div>
+      <div className="flex items-center justify-center absolute top-0 right-0 left-0 bottom-0 overflow-hidden">
+        {/*<Image className="sm:hidden block h-full invert " width={768} height={768} src={'/background/hero-background-dark-768-squared.png'} alt={'hero background image'}></Image>
+        {/* <Image className="md:hidden block h-full" width={1024} height={768} src={'/hero-background-dark-768.png'} alt={'hero background image'}></Image>
+        <Image className="hidden md:block lg:hidden h-full" width={1280} height={720} src={'/background/hero-background-dark-720.png'} alt={'hero background image'}></Image>
+        <Image className="hidden lg:block w-full" width={1920} height={1080} src={'/background/hero-background-dark.png'} alt={'hero background image'}></Image>*/}
+      </div>
+
+    </motion.div>
   );
 };

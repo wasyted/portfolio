@@ -14,9 +14,9 @@ export default function Home() {
       <Hero></Hero>
       <Projects></Projects>
       <div className="">
-        <div id='about-section' className="font-roboto flex flex-col justify-center items-center gap-10 p-4">
+        <div id='about-section' className="font-roboto flex flex-col justify-center items-center gap-10 p-4 bg-[#0d0d0d] text-[#f3f9f4]">
           <div className="text-center p-4">
-            <h1 className="text-start font-bold text-4xl h-max bg-gradient-to-br text-transparent bg-clip-text from-black to-slate-800 ">
+            <h1 className="text-start font-bold text-4xl h-max">
               About me
             </h1>
             <div className="flex items-start justify-center flex-wrap gap-4 mt-6"> 

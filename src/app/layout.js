@@ -1,8 +1,9 @@
 
-import { Inter } from "next/font/google";
+import { Inter, Roboto_Mono, Source_Code_Pro } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Roboto_Mono({ subsets: ["latin"] });
+
 
 export const metadata = {
   title: "Matías Wasyluk",
