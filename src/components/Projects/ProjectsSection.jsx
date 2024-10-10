@@ -1,21 +1,20 @@
 'use client'
 
-import { motion, useScroll } from "framer-motion"
+import { motion } from "framer-motion"
 import Image from "next/image"
-import { useRef } from "react"
 
 export default function Projects() {
   return (
     <div 
       id='projects-section' 
-      className="min-h-screen relative z-20 text-[#f3f9f4] flex min-h-screen flex-col justify-center sm:px-16 gap-10 bg-[#0d0d0d] pt-5 pb-10">
+      className="min-h-screen relative z-20 text-[#f3f9f4] border-t-2 border-[#f3f9f4] flex min-h-screen flex-col justify-center sm:px-16 gap-10 bg-[#0d0d0d] pt-5 pb-10">
       <motion.div 
         initial={{ opacity: 0, translateX: -60 }}
         transition={{ease: "easeInOut", delay: 0.2, duration: 0.5}}
         whileInView={{ opacity: 1, translateX: 0 }}
         className="flex justify-start text-start flex-col p-4">
-        <h1 className="font-bold text-4xl h-max">
-          / W O R K
+        <h1 className="font-bold text-4xl h-max spacing-normal">
+          // WORK
         </h1>
         <h2 className="font-bold text-lg max-w-lg mt-3">
           &quot;I can get things done.&quot;
@@ -87,6 +86,7 @@ export default function Projects() {
           <div className="flex-1 flex items-center justify-start gap-2">
             <p className="border rounded-full bg-white/[.05] text-xs p-2 px-3">REACT</p>
             <p className="border rounded-full bg-white/[.05] text-xs p-2 px-3">tailwind</p>
+            <p className="border rounded-full bg-white/[.05] text-xs p-2 px-3">TypeScript</p>
           </div>
           <p className="bg-[#f3f9f4] text-[#0d0d0d] flex items-center text-center justify-center aspect-square p-2 w-12">▶</p>
         </motion.div>
@@ -136,7 +136,7 @@ export default function Projects() {
           <p className="bg-[#f3f9f4] text-[#0d0d0d] flex items-center text-center justify-center aspect-square p-2 w-12">▶</p>
         </motion.div>
       </div>
-      <div className="text-center p-4 bg-gradient-to-br from-blue-700 to-blue-600 rounded-lg">
+      <div className="sm:mt-24 text-center p-4 sm:py-10 bg-gradient-to-br from-blue-700 to-blue-600 rounded-lg">
         <h1 className="font-bold text-4xl h-max bg-gradient-to-br text-transparent bg-clip-text from-black to-slate-600 dark:from-white dark:to-zinc-300">
           Tools and technologies
         </h1>
