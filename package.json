@@ -9,11 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@motionone/utils": "^10.18.0",
     "@nextui-org/react": "^2.2.9",
     "@react-spring/web": "^9.7.5",
+    "cursor-effects": "^1.0.15",
     "framer-motion": "^11.0.5",
     "next": "14.1.0",
     "react": "^18",
+    "react-animated-cursor": "^2.11.2",
     "react-dom": "^18",
     "react-switch": "^7.0.0"
   },

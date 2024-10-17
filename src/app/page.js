@@ -5,21 +5,23 @@ import Projects from "@/components/Projects/ProjectsSection";
 import Contact from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import ScrollToTopButton from "@/components/BackToTopButton";
-
+import ProjectShowcase from "@/components/Projects/ProjectShowcase";
 export default function Home() {
   return (
-    <div id='top'>
+    <div id='top' className="bg-[#0d0d0d]">
+
       <ScrollToTopButton scrollTarget='#top'></ScrollToTopButton>
-      <Header></Header>
-      <Hero></Hero>
-      <Projects></Projects>
+      <Header />
+      <Hero />
+      <Projects />
+      <ProjectShowcase />
       <div className="">
         <div id='about-section' className="font-roboto flex flex-col justify-center items-center gap-10 p-4 bg-[#0d0d0d] text-[#f3f9f4]">
           <div className="text-center p-4">
             <h1 className="text-start font-bold text-4xl h-max">
               About me
             </h1>
-            <div className="flex items-start justify-center flex-wrap gap-4 mt-6"> 
+            <div className="flex items-start justify-center flex-wrap gap-4 mt-6">
               <div className="text-justify">
                 <p className="text-md max-w-md">
                   Matías Wasyluk is from Buenos Aires, Argentinian like Messi and currently 24 years of age.

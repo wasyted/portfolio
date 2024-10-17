@@ -16,25 +16,43 @@ export default function Hero() {
   const translateX = useTransform(
     scrollY,
     [0, 1000],
-    [0, -300],
+    [0, -600],
+    { clamp: false }
+  )
+  const translateY = useTransform(
+    scrollY,
+    [0, 1000],
+    [0, 600],
     { clamp: false }
   )
   return (
     <motion.div
-      className={`sm:px-16 relative flex justify-between flex-col p-4 pt-28 pb-10 gap-10 min-h-screen bg-[#0d0d0d] ${source}`}>
+      className={`mx-auto sm:px-16 relative flex justify-between flex-col p-4 pt-28 pb-10 gap-10 min-h-screen  ${source}`}>
+      <motion.div
+        initial={{opacity: 0.5}}
+        transition={{delay: 0.2, ease: "easeInOut"}}
+        whileInView={{opacity: 0.05}}
+      >
+        <video muted autoPlay loop className="z-10 absolute top-0 left-0" src="/vecteezy_vhs-vignetted-capture-effect-tv-screen-noise-glitch-and_11995507.mp4"></video>
+      </motion.div>
       <motion.div
         initial={{ opacity: 0}}
         animate={{ opacity: 1}}
         transition={{ duration: 2 }}
         className="z-10 ">
-        <motion.div  transition={{ duration: 2 }} style={{ translateX }}>
+        <motion.div  transition={{ duration: 2, delay: 1 }} style={{ translateX }}>
         <p className="font-extrabold text-8xl max-w-sm text-start text-[#f3f9f4] tracking-tighter">
           MATÍAS
           DEV_
         </p>
           </motion.div>
       </motion.div>
-      <div className="relative z-10 self-end text-sm max-w-sm text-end text-[#f3f9f4]">
+      <motion.div 
+        initial={{opacity: 0}}
+        transition={{ duration: 0.2}}
+        whileInView={{opacity: 1}}
+        style={{ translateY }}
+        className="relative z-10 self-end text-sm max-w-sm text-end text-[#f3f9f4]">
         <p className="z-10 self-end text-sm max-w-sm text-end">
           Creating concept oriented, design centered and user friendly UI experiences.
         </p>
@@ -44,7 +62,7 @@ export default function Hero() {
             <span className="text-green-500 text-xl">●</span> Available for work
           </p>
         </div>
-      </div>
+      </motion.div >
       <div className="flex items-center justify-center absolute top-0 right-0 left-0 bottom-0 overflow-hidden">
         {/*<Image className="sm:hidden block h-full invert " width={768} height={768} src={'/background/hero-background-dark-768-squared.png'} alt={'hero background image'}></Image>
         {/* <Image className="md:hidden block h-full" width={1024} height={768} src={'/hero-background-dark-768.png'} alt={'hero background image'}></Image>

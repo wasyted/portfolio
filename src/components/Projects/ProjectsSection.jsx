@@ -7,12 +7,12 @@ export default function Projects() {
   return (
     <div 
       id='projects-section' 
-      className="min-h-screen relative z-20 text-[#f3f9f4] border-t-2 border-[#f3f9f4] flex min-h-screen flex-col justify-center sm:px-16 gap-10 bg-[#0d0d0d] pt-5 pb-10">
+      className="sm:text-sm text-xs pb-32 relative z-20 text-[#f3f9f4] border-[#f3f9f4] flex flex-col items-start justify-start sm:pt-20 sm:px-16 gap-10 bg-[#0d0d0d] mx-auto">
       <motion.div 
         initial={{ opacity: 0, translateX: -60 }}
         transition={{ease: "easeInOut", delay: 0.2, duration: 0.5}}
-        whileInView={{ opacity: 1, translateX: 0 }}
-        className="flex justify-start text-start flex-col p-4">
+        whileInView={{skewY: -5, opacity: 1, translateX: 0 }}
+        className="self-start flex justify-start text-start flex-col p-4">
         <h1 className="font-bold text-4xl h-max spacing-normal">
           // WORK
         </h1>
@@ -29,18 +29,22 @@ export default function Projects() {
           constantly evolving
         </p>
       </motion.div>
-      <div className="flex flex-col gap-2 max-w-6xl">
+      <motion.div
+        initial={{ skewY: 0}}
+        transition={{delay: 0.2}}
+        whileInView={{skewY: 5, translateY: 25}}
+        className="self-end flex flex-col gap-2 w-full max-w-7xl">
         <motion.div
-          className="flex items-center justify-between"
-          initial={{ opacity: 0 }}
+          className="gap-x-2 flex items-center justify-between"
+          initial={{ opacity: 0}}
           transition={{ delay: 0.5 }}
-          whileInView={{ opacity: 1 }}
+          whileInView={{ opacity: 1}}
           viewport={{ once: true }}>
-          <p className="flex-1 ml-3">001</p>
-          <p className="flex-1 text-2xl">DAVID BASILE <span className="text-sm opacity-50">//portfolio</span></p>
+          <p className="sm:pl-0 mx-3">001</p>
+          <p className="flex-1 text-lg sm:text-2xl">DAVID BASILE <span className="text-sm opacity-50">//portfolio</span></p>
           <div className="flex-1 flex items-center justify-start gap-2">
-            <p className="border rounded-full bg-white/[.05] text-xs p-2 px-3">NEXTJS</p>
-            <p className="border rounded-full bg-white/[.05] text-xs p-2 px-3">tailwind</p>
+            <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 sm:p-2 sm:px-3">NEXTJS</p>
+            <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 sm:p-2 sm:px-3">tailwind</p>
           </div>
           <button className="hover:bg-[#b6f2c0] hover:aspect-square hover:text-[#f3f9f4] transition-all bg-[#f3f9f4] text-[#0d0d0d] flex items-center text-center justify-center aspect-video p-2 w-12">▶</button>
         </motion.div>
@@ -57,13 +61,13 @@ export default function Projects() {
           initial={{ opacity: 0 }}
           transition={{ delay: 1 }}
           whileInView={{ opacity: 1 }}
-          className="flex items-center justify-between border-[#f3f9f4]">
-          <p className="flex-1 ml-3">002</p>
+          className="gap-x-2 flex items-center justify-between border-[#f3f9f4]">
+          <p className="mx-3">002</p>
           <p className="flex-1 text-2xl">HURYN WEB <span className="text-sm opacity-50">//landing page</span></p>
-          <div className="flex-1 flex items-center justify-start gap-2">
-            <p className="border rounded-full bg-white/[.05] text-xs p-2 px-3">HTML5</p>
-            <p className="border rounded-full bg-white/[.05] text-xs p-2 px-3">SCSS</p>
-            <p className="border rounded-full bg-white/[.05] text-xs p-2 px-3">JS</p>
+          <div className="flex-wrap flex-1 flex items-center justify-start gap-2">
+            <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 sm:p-2 sm:px-3">HTML5</p>
+            <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 sm:p-2 sm:px-3">SCSS</p>
+            <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 sm:p-2 sm:px-3">JS</p>
           </div>
           <p className="bg-[#f3f9f4] text-[#0d0d0d] flex items-center text-center justify-center aspect-square p-2 w-12">▶</p>
         </motion.div>
@@ -80,13 +84,13 @@ export default function Projects() {
           initial={{ opacity: 0 }}
           transition={{ delay: 1.5 }}
           whileInView={{ opacity: 1 }}
-          className="flex items-center justify-between  border-[#f3f9f4]">
-          <p className="flex-1 ml-3">003</p>
+          className="gap-x-2 flex items-center justify-between  border-[#f3f9f4]">
+          <p className="mx-3">003</p>
           <p className="flex-1 text-2xl">REACT UI <span className="text-sm opacity-50">//reusable components</span></p>
-          <div className="flex-1 flex items-center justify-start gap-2">
-            <p className="border rounded-full bg-white/[.05] text-xs p-2 px-3">REACT</p>
-            <p className="border rounded-full bg-white/[.05] text-xs p-2 px-3">tailwind</p>
-            <p className="border rounded-full bg-white/[.05] text-xs p-2 px-3">TypeScript</p>
+          <div className="flex-wrap flex-1 flex items-center justify-start gap-2">
+            <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 sm:p-2 sm:px-3">REACT</p>
+            <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 sm:p-2 sm:px-3">tailwind</p>
+            <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 sm:p-2 sm:px-3">TypeScript</p>
           </div>
           <p className="bg-[#f3f9f4] text-[#0d0d0d] flex items-center text-center justify-center aspect-square p-2 w-12">▶</p>
         </motion.div>
@@ -103,13 +107,13 @@ export default function Projects() {
           initial={{ opacity: 0 }}
           transition={{ delay: 2 }}
           whileInView={{ opacity: 1 }}
-          className="flex items-center justify-between  border-[#f3f9f4]">
-          <p className="flex-1 ml-3">004</p>
+          className="flex items-center gap-x-2 justify-between  border-[#f3f9f4]">
+          <p className="mx-3">004</p>
           <p className="flex-1 text-2xl">noteblndr <span className="text-sm opacity-50">//social-media prototype</span></p>
-          <div className="flex-1 flex items-center justify-start gap-2">
-            <p className="border rounded-full bg-white/[.05] text-xs p-2 px-3">expressJS</p>
-            <p className="border rounded-full bg-white/[.05] text-xs p-2 px-3">PUG</p>
-            <p className="border rounded-full bg-white/[.05] text-xs p-2 px-3">MongoDB</p>
+          <div className="flex-wrap flex-1 flex items-center justify-start gap-2">
+            <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 sm:p-2 sm:px-3">expressJS</p>
+            <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 sm:p-2 sm:px-3">PUG</p>
+            <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 sm:p-2 sm:px-3">MongoDB</p>
           </div>
           <p className="bg-[#f3f9f4] text-[#0d0d0d] flex items-center text-center justify-center aspect-square p-2 w-12">▶</p>
         </motion.div>
@@ -126,17 +130,17 @@ export default function Projects() {
           initial={{ opacity: 0 }}
           transition={{ delay: 2.5 }}
           whileInView={{ opacity: 1 }}
-          className="flex items-center justify-between  border-[#f3f9f4]">
-          <p className="flex-1 ml-3">005</p>
+          className="flex items-center justify-between gap-x-2 border-[#f3f9f4]">
+          <p className="mx-3">005</p>
           <p className="text-2xl flex-1">SHOPIFY <span className="text-sm opacity-50">//e-commerce prototype</span></p>
-          <div className="flex-1 flex items-center justify-start gap-2">
-            <p className="border rounded-full bg-white/[.05] text-xs p-2 px-3">NEXTJS</p>
-            <p className="border rounded-full bg-white/[.05] text-xs p-2 px-3">tailwindCSS</p>
+          <div className="flex-wrap flex-1 flex items-center justify-start gap-2">
+            <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 sm:p-2 sm:px-3">NEXTJS</p>
+            <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 sm:p-2 sm:px-3">tailwindCSS</p>
           </div>
           <p className="bg-[#f3f9f4] text-[#0d0d0d] flex items-center text-center justify-center aspect-square p-2 w-12">▶</p>
         </motion.div>
-      </div>
-      <div className="sm:mt-24 text-center p-4 sm:py-10 bg-gradient-to-br from-blue-700 to-blue-600 rounded-lg">
+      </motion.div>
+      {/*<div className="sm:mt-24 text-center p-4 sm:py-10 bg-gradient-to-br from-blue-700 to-blue-600 rounded-lg">
         <h1 className="font-bold text-4xl h-max bg-gradient-to-br text-transparent bg-clip-text from-black to-slate-600 dark:from-white dark:to-zinc-300">
           Tools and technologies
         </h1>
@@ -187,7 +191,7 @@ export default function Projects() {
             <Image priority alt="firebase" width={40} height={40} src="/logos/logo-logomark.png"></Image>
           </div>
         </div>
-      </div>
+      </div>*/}
     </div>
   )
 }

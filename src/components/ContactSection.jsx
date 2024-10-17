@@ -23,7 +23,7 @@ export default function Hero() {
         <p className="font-extrabold text-6xl max-w-md text-start tracking-tighter">
           LET&apos;S <span className="italic font-semibold">BUILD </span>
           <span className="italic font-normal">YOUR </span>PROJECT<br />
-          <span className="underline">TOGHETER</span>
+          <span className="underline">TOGETHER</span>
         </p>
           <button className="font-semibold px-6 py-2 mt-10 rounded-md text-[#f3f9f4] bg-[#0d0d0d]">Send me an email 📨</button>
       </motion.div>
