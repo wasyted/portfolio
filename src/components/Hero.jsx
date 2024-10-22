@@ -29,28 +29,42 @@ export default function Hero() {
     <motion.div
       className={`mx-auto sm:px-16 relative flex justify-between flex-col p-4 pt-28 pb-10 gap-10 min-h-screen  ${source}`}>
       <motion.div
-        initial={{opacity: 0.5}}
-        transition={{delay: 0.2, ease: "easeInOut"}}
-        whileInView={{opacity: 0.05}}
+        initial={{ opacity: 0.5 }}
+        transition={{ delay: 0.2, ease: "easeInOut" }}
+        whileInView={{ opacity: 0.05 }}
       >
-        <video muted autoPlay loop className="z-10 absolute top-0 left-0" src="/vecteezy_vhs-vignetted-capture-effect-tv-screen-noise-glitch-and_11995507.mp4"></video>
+        <video muted autoPlay loop className="min-h-screen right-0 aspect-video rotate-90 sm:rotate-0 z-10 absolute top-0 left-0" src="/vecteezy_vhs-vignetted-capture-effect-tv-screen-noise-glitch-and_11995507.mp4"></video>
       </motion.div>
       <motion.div
-        initial={{ opacity: 0}}
-        animate={{ opacity: 1}}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
         transition={{ duration: 2 }}
         className="z-10 ">
-        <motion.div  transition={{ duration: 2, delay: 1 }} style={{ translateX }}>
-        <p className="font-extrabold text-8xl max-w-sm text-start text-[#f3f9f4] tracking-tighter">
-          MATÍAS
-          DEV_
-        </p>
-          </motion.div>
+        <motion.div transition={{ duration: 2, delay: 1 }} style={{ translateX }}>
+          <p className="font-extrabold text-8xl max-w-sm text-start text-[#f3f9f4] tracking-tighter">
+            MATÍAS
+            DEV
+            <span
+              className="animate-blink"
+              style={{
+                animation: 'blink 1s step-start infinite',
+              }}
+            >
+              _
+            </span>
+            <style jsx>{`
+              @keyframes blink {
+                0%, 100% { opacity: 1; }
+                50% { opacity: 0; }
+              }
+            `}</style>
+          </p>
+        </motion.div>
       </motion.div>
-      <motion.div 
-        initial={{opacity: 0}}
-        transition={{ duration: 0.2}}
-        whileInView={{opacity: 1}}
+      <motion.div
+        initial={{ opacity: 0 }}
+        transition={{ duration: 0.2 }}
+        whileInView={{ opacity: 1 }}
         style={{ translateY }}
         className="relative z-10 self-end text-sm max-w-sm text-end text-[#f3f9f4]">
         <p className="z-10 self-end text-sm max-w-sm text-end">
