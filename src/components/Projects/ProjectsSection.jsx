@@ -113,7 +113,7 @@ export default function Projects() {
             <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 xl:p-2 xl:px-3">PUG</p>
             <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 xl:p-2 xl:px-3">MongoDB</p>
           </div>
-          <a target="_blank" href="https://noteblndr.up.railway.app/" className="hover:bg-[#b6f2c0] hover:aspect-square hover:text-[#f3f9f4] transition-all bg-[#f3f9f4] text-[#0d0d0d] flex items-center text-center justify-center aspect-video p-2 w-12">▶</a>
+          <a target="_blank" href="https://express-auth-app-kxdb.onrender.com/" className="hover:bg-[#b6f2c0] hover:aspect-square hover:text-[#f3f9f4] transition-all bg-[#f3f9f4] text-[#0d0d0d] flex items-center text-center justify-center aspect-video p-2 w-12">▶</a>
         </motion.div>
         <motion.div
           viewport={{ once: true }}
