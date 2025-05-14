@@ -11,7 +11,7 @@ export default function Hero() {
       whileInView={{background: "#f3f9f4"}}
       transition={{ delay: 0.3, ease: "easeIn", duration: 1 }}
       id="contact-section"
-      className={`sm:px-16 relative flex justify-between items-center p-4 pt-10 pb-10 gap-10 min-h-screen bg-[#f3f9f4] text-[#0d0d0d] ${source}`}>
+      className={`sm:px-16 relative flex flex-col justify-center items-center sm:flex-row sm:justify-between sm:items-center p-4 pt-10 pb-10 gap-10 min-h-screen bg-[#f3f9f4] text-[#0d0d0d] ${source}`}>
       <div className="opacity-25 m-auto w-sm h-sm flex items-center justify-center absolute top-0 bottom-0 right-0 overflow-hidden invert ">
         <Image className="" width={768} height={768} src={'/background/globe-dark.png'} alt={'globe wireframe image'}></Image>
       </div>
@@ -29,12 +29,12 @@ export default function Hero() {
           <a href="mailto:matiasezequielwasyulk@gmail.com" target="_blank" className="font-semibold px-6 py-2 rounded-md text-[#f3f9f4] bg-[#0d0d0d]">Send me an email 📨</a>
         </div>
       </motion.div>
-      <div className="z-10 self-end text-sm max-w-md text-end]">
+      <div className="z-10 sm:self-end text-sm max-w-md text-end]">
         <motion.div
           initial={{ opacity: 0.2 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.6, ease: "easeIn", duration: .5 }}>
-          <p className="z-10 self-end text-sm text-end">
+          <p className="z-10 sm:self-end text-sm sm:text-end">
             I can contribute in your project with my goal-oriented and creative driven attention to detail. Let&apos;s build your idea into reality. <br /><br /> You set the goals and i&apos;ll do the coding.
           </p>
         </motion.div>

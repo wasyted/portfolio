@@ -77,7 +77,7 @@ export default function Hero() {
           </p>
         </div>
       </motion.div >
-      <motion.div ref={ref} style={{ opacity }} className="opacity-25 m-auto w-sm h-sm flex items-center justify-center fixed top-0 bottom-0 left-0 overflow-hidden invert ">
+      <motion.div ref={ref} style={{ opacity }} className="opacity-25 m-auto w-sm h-sm flex items-center justify-center fixed top-0 bottom-0 left-0 overflow-hidden invert">
         <Image className="" width={768} height={768} src={'/background/globe-dark.png'} alt={'globe wireframe image'}></Image>
       </motion.div>
     </motion.div>
