@@ -45,7 +45,7 @@ export default function Projects() {
             <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 xl:p-2 xl:px-3">NEXTJS</p>
             <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 xl:p-2 xl:px-3">tailwind</p>
           </div>
-          <button className="hover:bg-[#b6f2c0] hover:aspect-square hover:text-[#f3f9f4] transition-all bg-[#f3f9f4] text-[#0d0d0d] flex items-center text-center justify-center aspect-video p-2 w-12">▶</button>
+          <a target="_blank" href="https://dav1dbasile-portfolio.vercel.app/" className="hover:bg-[#b6f2c0] hover:aspect-square hover:text-[#f3f9f4] transition-all bg-[#f3f9f4] text-[#0d0d0d] flex items-center text-center justify-center aspect-video p-2 w-12">▶</a>
         </motion.div>
         <motion.div
           viewport={{ once: true }}
@@ -68,7 +68,7 @@ export default function Projects() {
             <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 xl:p-2 xl:px-3">SCSS</p>
             <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 xl:p-2 xl:px-3">JS</p>
           </div>
-          <button className="hover:bg-[#b6f2c0] hover:aspect-square hover:text-[#f3f9f4] transition-all bg-[#f3f9f4] text-[#0d0d0d] flex items-center text-center justify-center aspect-video p-2 w-12">▶</button>
+          <a target="_blank" href="https://wasyted.github.io/hurynWeb/" className="hover:bg-[#b6f2c0] hover:aspect-square hover:text-[#f3f9f4] transition-all bg-[#f3f9f4] text-[#0d0d0d] flex items-center text-center justify-center aspect-video p-2 w-12">▶</a>
         </motion.div>
         <motion.div
           viewport={{ once: true }}
@@ -85,13 +85,12 @@ export default function Projects() {
           whileInView={{ opacity: 1 }}
           className="gap-x-2 flex items-center justify-between  border-[#f3f9f4]">
           <p className="mx-3">003</p>
-          <p className="flex-1 text-2xl">REACT UI <span className="text-xs opacity-50">//reusable components</span></p>
+          <p className="flex-1 text-2xl">Laloamasa Store <span className="text-xs opacity-50">//e-commerce</span></p>
           <div className="flex-wrap flex-1 flex items-center justify-start gap-2">
-            <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 xl:p-2 xl:px-3">REACT</p>
-            <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 xl:p-2 xl:px-3">tailwind</p>
-            <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 xl:p-2 xl:px-3">TypeScript</p>
+            <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 xl:p-2 xl:px-3">REACT/vite</p>
+            <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 xl:p-2 xl:px-3">Sass</p>
           </div>
-          <button className="hover:bg-[#b6f2c0] hover:aspect-square hover:text-[#f3f9f4] transition-all bg-[#f3f9f4] text-[#0d0d0d] flex items-center text-center justify-center aspect-video p-2 w-12">▶</button>
+          <a target="_blank" href="https://laloamasa.web.app/" className="hover:bg-[#b6f2c0] hover:aspect-square hover:text-[#f3f9f4] transition-all bg-[#f3f9f4] text-[#0d0d0d] flex items-center text-center justify-center aspect-video p-2 w-12">▶</a>
         </motion.div>
         <motion.div
           viewport={{ once: true }}
@@ -114,7 +113,7 @@ export default function Projects() {
             <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 xl:p-2 xl:px-3">PUG</p>
             <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 xl:p-2 xl:px-3">MongoDB</p>
           </div>
-          <button className="hover:bg-[#b6f2c0] hover:aspect-square hover:text-[#f3f9f4] transition-all bg-[#f3f9f4] text-[#0d0d0d] flex items-center text-center justify-center aspect-video p-2 w-12">▶</button>
+          <a target="_blank" href="https://noteblndr.up.railway.app/" className="hover:bg-[#b6f2c0] hover:aspect-square hover:text-[#f3f9f4] transition-all bg-[#f3f9f4] text-[#0d0d0d] flex items-center text-center justify-center aspect-video p-2 w-12">▶</a>
         </motion.div>
         <motion.div
           viewport={{ once: true }}
@@ -136,7 +135,7 @@ export default function Projects() {
             <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 xl:p-2 xl:px-3">NEXTJS</p>
             <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 xl:p-2 xl:px-3">tailwindCSS</p>
           </div>
-          <button className="hover:bg-[#b6f2c0] hover:aspect-square hover:text-[#f3f9f4] transition-all bg-[#f3f9f4] text-[#0d0d0d] flex items-center text-center justify-center aspect-video p-2 w-12">▶</button>
+          <a target="_blank" href="https://wasyted.github.io/hurynWeb/" className="hover:bg-[#b6f2c0] hover:aspect-square hover:text-[#f3f9f4] transition-all bg-[#f3f9f4] text-[#0d0d0d] flex items-center text-center justify-center aspect-video p-2 w-12">▶</a>
         </motion.div>
       </motion.div>
       {/*<div className="sm:mt-24 text-center p-4 sm:py-10 bg-gradient-to-br from-blue-700 to-blue-600 rounded-lg">

@@ -25,7 +25,9 @@ export default function Hero() {
           <span className="italic font-normal">YOUR </span>PROJECT<br />
           <span className="underline">TOGETHER</span>
         </p>
-          <button className="font-semibold px-6 py-2 mt-10 rounded-md text-[#f3f9f4] bg-[#0d0d0d]">Send me an email 📨</button>
+        <div className="mt-10">
+          <a href="mailto:matiasezequielwasyulk@gmail.com" target="_blank" className="font-semibold px-6 py-2 rounded-md text-[#f3f9f4] bg-[#0d0d0d]">Send me an email 📨</a>
+        </div>
       </motion.div>
       <div className="z-10 self-end text-sm max-w-md text-end]">
         <motion.div
