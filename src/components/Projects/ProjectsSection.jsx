@@ -13,7 +13,7 @@ export default function Projects() {
         whileInView={{skewY: -5, opacity: 1, translateX: 0 }}
         className="self-start flex justify-start text-start flex-col p-4">
         <h1 className="font-bold text-4xl h-max spacing-normal">
-          // WORK
+          WORK
         </h1>
         <h2 className="font-bold text-lg max-w-lg mt-3">
           &quot;I can get things done.&quot;
