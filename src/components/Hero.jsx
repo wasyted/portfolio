@@ -41,7 +41,7 @@ export default function Hero() {
         transition={{ duration: 2 }}
         className="z-10 ">
         <motion.div transition={{ duration: 2, delay: 1 }} style={{ translateX }}>
-          <p className="font-extrabold text-8xl max-w-sm text-start text-[#f3f9f4] tracking-tighter">
+          <p className="font-extrabold text-4xl sm:text-8xl max-w-sm text-start text-[#f3f9f4] tracking-tighter">
             MATÍAS
             DEV
             <span
