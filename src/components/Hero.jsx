@@ -27,7 +27,7 @@ export default function Hero() {
   )
   return (
     <motion.div
-      className={`overflow-hidden mx-auto sm:px-16 relative flex justify-between flex-col p-4 sm:pt-28 pb-10 gap-10 min-h-screen  ${source}`}>
+      className={`overflow-hidden mx-auto sm:px-16 relative flex sm:items-start items-center justify-center sm:justify-between flex-col p-4 sm:pt-28 pb-10 gap-10 min-h-screen  ${source}`}>
       <motion.div
         initial={{ opacity: 0.5 }}
         transition={{ delay: 0.2, ease: "easeInOut" }}
@@ -41,7 +41,7 @@ export default function Hero() {
         transition={{ duration: 2 }}
         className="z-10 ">
         <motion.div transition={{ duration: 2, delay: 1 }} style={{ translateX }}>
-          <p className="font-extrabold text-4xl sm:text-8xl max-w-sm text-start text-[#f3f9f4] tracking-tighter">
+          <p className="font-extrabold text-6xl sm:text-8xl max-w-sm text-start text-[#f3f9f4] tracking-tighter">
             MATÍAS
             DEV
             <span
@@ -66,7 +66,7 @@ export default function Hero() {
         transition={{ duration: 0.2 }}
         whileInView={{ opacity: 1 }}
         style={{ translateY }}
-        className="relative z-10 self-end text-sm max-w-sm text-end text-[#f3f9f4]">
+        className="relative z-10 sm:self-end text-sm max-w-sm text-end text-[#f3f9f4]">
         <p className="z-10 self-end text-sm max-w-sm text-end">
           Creating concept oriented, design centered and user friendly UI experiences.
         </p>
