@@ -27,13 +27,13 @@ export default function Hero() {
   )
   return (
     <motion.div
-      className={`mx-auto sm:px-16 relative flex justify-between flex-col p-4 pt-28 pb-10 gap-10 min-h-screen  ${source}`}>
+      className={`overflow-hidden mx-auto sm:px-16 relative flex justify-between flex-col p-4 sm:pt-28 pb-10 gap-10 min-h-screen  ${source}`}>
       <motion.div
         initial={{ opacity: 0.5 }}
         transition={{ delay: 0.2, ease: "easeInOut" }}
         whileInView={{ opacity: 0.05 }}
       >
-        <video muted autoPlay loop className="min-h-screen right-0 aspect-video rotate-90 sm:rotate-0 z-10 absolute top-0 left-0" src="/vecteezy_vhs-vignetted-capture-effect-tv-screen-noise-glitch-and_11995507.mp4"></video>
+        <video muted autoPlay loop className="sm:absolute min-h-screen right-0 aspect-video rotate-90 sm:rotate-0 z-10 hidden top-0 left-0" src="/vecteezy_vhs-vignetted-capture-effect-tv-screen-noise-glitch-and_11995507.mp4"></video>
       </motion.div>
       <motion.div
         initial={{ opacity: 0 }}
@@ -77,12 +77,6 @@ export default function Hero() {
           </p>
         </div>
       </motion.div >
-      <div className="flex items-center justify-center absolute top-0 right-0 left-0 bottom-0 overflow-hidden">
-        {/*<Image className="sm:hidden block h-full invert " width={768} height={768} src={'/background/hero-background-dark-768-squared.png'} alt={'hero background image'}></Image>
-        {/* <Image className="md:hidden block h-full" width={1024} height={768} src={'/hero-background-dark-768.png'} alt={'hero background image'}></Image>
-        <Image className="hidden md:block lg:hidden h-full" width={1280} height={720} src={'/background/hero-background-dark-720.png'} alt={'hero background image'}></Image>
-        <Image className="hidden lg:block w-full" width={1920} height={1080} src={'/background/hero-background-dark.png'} alt={'hero background image'}></Image>*/}
-      </div>
       <motion.div ref={ref} style={{ opacity }} className="opacity-25 m-auto w-sm h-sm flex items-center justify-center fixed top-0 bottom-0 left-0 overflow-hidden invert ">
         <Image className="" width={768} height={768} src={'/background/globe-dark.png'} alt={'globe wireframe image'}></Image>
       </motion.div>

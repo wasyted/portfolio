@@ -9,7 +9,6 @@ import ProjectShowcase from "@/components/Projects/ProjectShowcase";
 export default function Home() {
   return (
     <div id='top' className="bg-[#0d0d0d]">
-
       <ScrollToTopButton scrollTarget='#top'></ScrollToTopButton>
       <Header />
       <Hero />
