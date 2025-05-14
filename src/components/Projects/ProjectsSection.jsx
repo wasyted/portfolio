@@ -40,7 +40,7 @@ export default function Projects() {
           whileInView={{ opacity: 1}}
           viewport={{ once: true }}>
           <p className="xl:pl-0 mx-3">001</p>
-          <p className="flex-1 text-lg xl:text-2xl">DAVID BASILE <span className="text-xs opacity-50">//portfolio</span></p>
+          <p className="flex-1 text-lg xl:text-2xl">DAVID BASILE <span className="text-xs opacity-50">&gt;&gt;portfolio</span></p>
           <div className="flex-1 flex items-center justify-start gap-2">
             <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 xl:p-2 xl:px-3">NEXTJS</p>
             <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 xl:p-2 xl:px-3">tailwind</p>
@@ -62,7 +62,7 @@ export default function Projects() {
           whileInView={{ opacity: 1 }}
           className="gap-x-2 flex items-center justify-between border-[#f3f9f4]">
           <p className="mx-3">002</p>
-          <p className="flex-1 text-2xl">HURYN WEB <span className="text-xs opacity-50">//landing page</span></p>
+          <p className="flex-1 text-2xl">HURYN WEB <span className="text-xs opacity-50">&gt;&gt;landing page</span></p>
           <div className="flex-wrap flex-1 flex items-center justify-start gap-2">
             <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 xl:p-2 xl:px-3">HTML5</p>
             <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 xl:p-2 xl:px-3">SCSS</p>
@@ -85,7 +85,7 @@ export default function Projects() {
           whileInView={{ opacity: 1 }}
           className="gap-x-2 flex items-center justify-between  border-[#f3f9f4]">
           <p className="mx-3">003</p>
-          <p className="flex-1 text-2xl">Laloamasa Store <span className="text-xs opacity-50">//e-commerce</span></p>
+          <p className="flex-1 text-2xl">Laloamasa Store <span className="text-xs opacity-50">&gt;&gt;e-commerce</span></p>
           <div className="flex-wrap flex-1 flex items-center justify-start gap-2">
             <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 xl:p-2 xl:px-3">REACT/vite</p>
             <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 xl:p-2 xl:px-3">Sass</p>
@@ -107,7 +107,7 @@ export default function Projects() {
           whileInView={{ opacity: 1 }}
           className="flex items-center gap-x-2 justify-between  border-[#f3f9f4]">
           <p className="mx-3">004</p>
-          <p className="flex-1 text-2xl">noteblndr <span className="text-xs opacity-50">//social-media prototype</span></p>
+          <p className="flex-1 text-2xl">noteblndr <span className="text-xs opacity-50">&gt;&gt;social-media prototype</span></p>
           <div className="flex-wrap flex-1 flex items-center justify-start gap-2">
             <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 xl:p-2 xl:px-3">expressJS</p>
             <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 xl:p-2 xl:px-3">PUG</p>
@@ -130,12 +130,12 @@ export default function Projects() {
           whileInView={{ opacity: 1 }}
           className="flex items-center justify-between gap-x-2 border-[#f3f9f4]">
           <p className="mx-3">005</p>
-          <p className="text-2xl flex-1">SHOPIFY <span className="text-xs opacity-50">//e-commerce prototype</span></p>
+          <p className="text-2xl flex-1">SHOPIFY <span className="text-xs opacity-50">&gt;&gt;e-commerce prototype</span></p>
           <div className="flex-wrap flex-1 flex items-center justify-start gap-2">
             <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 xl:p-2 xl:px-3">NEXTJS</p>
             <p className="border rounded-full bg-white/[.05] text-xs py-1 px-2 xl:p-2 xl:px-3">tailwindCSS</p>
           </div>
-          <a target="_blank" href="https://wasyted.github.io/hurynWeb/" className="hover:bg-[#b6f2c0] hover:aspect-square hover:text-[#f3f9f4] transition-all bg-[#f3f9f4] text-[#0d0d0d] flex items-center text-center justify-center aspect-video p-2 w-12">▶</a>
+          <a target="_blank" href="https:&gt;wasyted.github.io/hurynWeb/" className="hover:bg-[#b6f2c0] hover:aspect-square hover:text-[#f3f9f4] transition-all bg-[#f3f9f4] text-[#0d0d0d] flex items-center text-center justify-center aspect-video p-2 w-12">▶</a>
         </motion.div>
       </motion.div>
     </div>
