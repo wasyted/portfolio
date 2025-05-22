@@ -9,7 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
     "@motionone/utils": "^10.18.0",
+    "@mui/icons-material": "^7.1.0",
+    "@mui/material": "^7.1.0",
     "@nextui-org/react": "^2.2.9",
     "@react-spring/web": "^9.7.5",
     "cursor-effects": "^1.0.15",

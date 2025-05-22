@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export default function Header({ navEntryList }) {
   return (
-    <header className="shadow-lg bg-blend-lighten w-auto bg-[#0d0d0d] backdrop-blur-lg flex justify-between items-center p-2 px-0 fixed self-center top-0 right-0 left-0 sm:right-10 z-50 rounded-lg rounded-tl-none rounded-tr-none">
+    <header className="shadow-lg bg-blend-lighten w-auto bg-[#0d0d0d] backdrop-blur-lg flex justify-between items-center p-2 px-0 fixed self-center top-0 right-0 left-0 z-50 rounded-lg rounded-tl-none rounded-tr-none">
       <div className="flex justify-end items-center gap-2">
         <Link className="flex justify-center items-center rounded-lg text-[#f3f9f4] text-sm" href="/">
           <div className="overflow-hidden flex items-center justify-center h-8 w-8 ml-2">
